@@ -11,10 +11,10 @@ function Header(){
                 <input type="text" placeholder="What are you looking for ?"></input>
                 <button type="submit" onClick={"/"}><i class="fa fa-search"></i></button>
             </div>
-            {/* <div className="head3">
+            <div className="head3">
                 <a href='/signin' className="signin">SIGN IN</a>
                 <a href="/" className="signup">SIGN UP</a>
-            </div> */}
+            </div>
         </div>
     )
 }

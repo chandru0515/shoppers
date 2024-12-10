@@ -381,24 +381,25 @@ left: 625px;
     box-shadow:black;
     padding: 7px 30px 7px 20px;
   }
-  .signup {
+  
+  /* .signup {
     width: 100%;
     height: 700px;
     background-color: rgb(210, 169, 249);
-}
+} */
 
-
+/* 
 .signupform{
   width: 400px;
   height: 700px;
   background-color: rgba(250, 235, 215, 0.779);
   margin-left: 550px;
   border-radius: 50px;
-  /* margin-top: 30px; */
 
-}
 
-.signupform h3{
+} */
+
+/* .signupform h3{
 
   margin: 0px;
   text-align: center;
@@ -407,64 +408,59 @@ left: 625px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifx;
   font-size: 30px;
   text-transform: uppercase;
-}
+} */
 
-.signupform .user{
+/* .signupform .user{
   padding-top: 10px;
   padding-left: 100px;
-  /* text-align: center; */
-}
-.signupform .phone{
+} */
+/* .signupform .phone{
   padding-top: 10px;
   padding-left: 100px;
-  /* text-align: center; */
-}
-.signupform .pass{
+} */
+/* .signupform .pass{
   padding-top: 20px;
   padding-left: 100px;
+  } */
 
-    /* text-align: center; */
-  }
-
-  .signupform .cpass{
+  /* .signupform .cpass{
     padding-top: 20px;
     padding-left: 100px;
   
-      /* text-align: center; */
-    }
+      
+    } */
 
 
-  .signupform .user,.pass,.cpass,.phone label{
-    /* font-size: large; */
+  /* .signupform .user,.pass,.cpass,.phone label{
+
     color:rgb(133, 49, 49);
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   }
-   .signupform .user input{
+   } */
+   /* .signupform .user input{
      margin-top: 10px;
      box-shadow:black;
      padding: 7px 30px 7px 20px;
-   }
-   .signupform .phone input{
+   } */
+   /* .signupform .phone input{
     margin-top: 10px;
     box-shadow:black;
     padding: 7px 30px 7px 20px;
-  }
-   .signupform .pass input{
+  } */
+   /* .signupform .pass input{
      margin-top: 10px;
      box-shadow:black;
      padding: 7px 30px 7px 20px;
-   }
-   .signupform .cpass input{
+   } */
+   /* .signupform .cpass input{
     margin-top: 10px;
     box-shadow:black;
     padding: 7px 30px 7px 20px;
-  }
-
+  } */
+/* 
   .inup a{
     display: inline;
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 100px;
-    /* margin-top: 50px; */
     padding: 0%;  
-  }
+  } */
