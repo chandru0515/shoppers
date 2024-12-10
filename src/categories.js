@@ -8,6 +8,7 @@ export default function Categories() {
 
     
     return(
+        
         <div className="categories">
             {data ? (
                 <div className="cate1">
