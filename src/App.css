@@ -1,0 +1,470 @@
+
+.header{
+  position: relative;
+  width: 100%;
+  height: 130px;
+  background-color:rgb(203, 127, 198);
+}
+.header img{
+  position: absolute;
+  border-radius: 50%;
+  top: 35px;
+  left: 40px;
+  height: 50px;
+  width: 50px;
+}
+.header span{
+  position: absolute;
+  color: aliceblue;
+  box-shadow:black 50px;
+  top: 30px;
+  left: 100px;
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 900;
+  /* font-style:italic; */
+}
+.header .head2 input{
+  position: absolute;
+  border: none;
+  border-radius: 50px;
+  width: 400px;
+  padding: 15px 60px 15px 50px;
+  top: 40px;
+  left: 550px;
+}
+
+.header .head2 button {
+
+  border-radius: 50px;
+  border: none;
+  width: 40px;
+  padding: 0px;
+  background-color:  rgba(235, 234, 234, 0.614);
+}
+.header .head2 button i{
+  position: absolute;
+  top: 55px;
+  left: 565px;
+  background-color:none;
+  font-size: large;
+  color: rgb(155, 55, 55);
+}
+.head2 ::placeholder{
+  color: rgb(228, 159, 223);
+  font-size: large;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.head3 a{
+ text-decoration: none; 
+ background-color: aliceblue;
+ border: solid 1px rgb(255, 255, 255);
+ padding: 10px;
+ border-radius: 50px 25px 50px 25px;
+ margin: 10px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.head3 a:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(203, 127, 198);
+  border-color: aliceblue;
+}
+
+.head3 .signin{
+  position: absolute;
+  top: 35px;
+  left: 85%;
+}
+.head3 .signup{
+  position: absolute;
+  top: 35px;
+  left: 90%;
+}
+
+
+.footer{
+  /* text-align: center; */
+  position: relative;
+  width:100%;
+  height: 450px;
+  background-color: rgb(203, 127, 198);
+}
+.footer .foot1{
+  position: absolute;
+  top: 40px;
+  left: 200px;
+
+}
+.footer .foot2{
+  position: absolute;
+  top: 40px;
+  left: 450px;
+}
+.footer .foot3{
+  position: absolute;
+  top: 40px;
+  left: 750px;
+}
+.footer .foot4{
+  position: absolute;
+  top: 40px;
+  left: 1100px;
+}
+.footer h4{
+  /* font-weight: 500; */
+  color: aliceblue;
+  margin: 0px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer a{
+  display: block;
+  padding-top: 5px;
+  font-size: large;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+.footer a:hover {
+ color: rgb(0, 0, 0);
+}
+.footer hr{
+ position: absolute;
+ width: 300px;
+ top: 320px;
+left: 625px;
+}
+
+.footer h5{
+  position:absolute;
+  left:720px;
+  top: 310px;
+  color: aliceblue;
+  font-size: large;
+  font-weight: 400;
+}
+ .favicon{
+  width: 100%;
+  text-align: center;
+  padding-top: 380px;
+  font-size: 30px;
+ }
+ .favicon i{
+  padding-left: 20px;
+  color: white;
+ }
+ .favicon i:hover{
+  color:rgb(162, 44, 113);
+ }
+
+ .categories{
+  background-color:rgb(203, 127, 198) ;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  border-radius: 20px 50px 20px 50px;
+  padding-top: 30px;
+
+ }
+
+ .cate1 a{
+  float: left;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  padding: 0px 15px 0px 15px;
+  margin-left: 87px;
+  font-size: 22px;
+  background-color: rgb(162, 44, 113);
+  border-radius: 50px; 
+ }
+
+ .cate1 a:hover{
+  background-color: antiquewhite;
+  color: rgb(162, 44, 113);
+
+ }
+
+ .electronics{
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+ }
+
+ .e{
+  background-color: rgb(203, 127, 198);
+  display: flex;
+  border: 3px white;
+  border-style: dotted;
+  flex-wrap: wrap;
+ }
+ .elect1 img{
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+ }
+
+
+ .elect1{
+  /* text-align: center; */
+  margin: 40px;
+  width: 400px;
+  border: solid rgb(0, 0, 0) 3px;
+  border-radius: 50px 20px 50px 20px;
+  padding: 10px;
+  background-color: rgb(253, 253, 253);
+
+ }
+ .elect1 h4,h5{
+  /* color: rgb(175, 30, 175); */
+  font-size: 20px;
+ }
+ .elect1 h4{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ .m{
+  background-color: rgb(203, 127, 198);
+  border: 3px white;
+  border-style: dotted;
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .men1 img{
+  border-radius: 15px;
+  width: 230px;
+  height: 200px;
+ }
+ .men1{
+  /* text-align: center; */
+  margin: 16px;
+  width: 300px;
+  height: 550px;
+  border: solid rgb(0, 0, 0) 3px;
+  border-radius: 50px 20px 50px 20px;
+  padding: 20px;
+  background-color: rgb(253, 253, 253);
+ }
+
+ .men1 h4,h5{
+  /* color: rgb(175, 30, 175); */
+  font-size: 20px;
+ }
+ .men1 h4{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+
+ .womenclothing{
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+ }
+
+ .w{
+  background-color: rgb(203, 127, 198);
+  display: flex;
+  border: 3px white;
+  border-style: dotted;
+  flex-wrap: wrap;
+ }
+ .women1 img{
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+ }
+
+
+ .women1{
+  /* text-align: center; */
+  margin: 40px;
+  width: 400px;
+  border: solid rgb(0, 0, 0) 3px;
+  border-radius: 50px 20px 50px 20px;
+  padding: 10px;
+  background-color: rgb(253, 253, 253);
+
+ }
+ .women1 h4,h5{
+  /* color: rgb(175, 30, 175); */
+  font-size: 20px;
+ }
+ .women1 h4{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+  
+ .j{
+  background-color: rgb(203, 127, 198);
+  border: 3px white;
+  border-style: dotted;
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .jewel1 img{
+  border-radius: 15px;
+  width: 230px;
+  height: 200px;
+ }
+ .jewel1{
+  /* text-align: center; */
+  margin: 16px;
+  width: 300px;
+  height: 550px;
+  border: solid rgb(0, 0, 0) 3px;
+  border-radius: 50px 20px 50px 20px;
+  padding: 20px;
+  background-color: rgb(253, 253, 253);
+ }
+
+ .jewel1 h4,h5{
+  /* color: rgb(175, 30, 175); */
+  font-size: 20px;
+ }
+ .jewel1 h4{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+
+
+.sign {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(210, 169, 249);
+}
+
+.signform{
+  width: 400px;
+  height: 650px;
+  background-color: rgba(250, 235, 215, 0.779);
+  margin-left: 550px;
+  /* margin-top: 30px; */
+
+}
+
+.signform h3{
+  margin: 0px;
+  text-align: center;
+  padding-top: 150px;
+  color: blueviolet;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifx;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.signform .user{
+  padding-top: 10px;
+  padding-left: 100px;
+  /* text-align: center; */
+}
+.signform .pass{
+  padding-top: 30px;
+  padding-left: 100px;
+
+    /* text-align: center; */
+  }
+
+  .signform .user,.pass label{
+   /* font-size: large; */
+   color:rgb(133, 49, 49);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .signform .user input{
+    margin-top: 10px;
+    box-shadow:black;
+    padding: 7px 30px 7px 20px;
+  }
+  .signform .pass input{
+    margin-top: 10px;
+    box-shadow:black;
+    padding: 7px 30px 7px 20px;
+  }
+  .signup {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(210, 169, 249);
+}
+
+
+.signupform{
+  width: 400px;
+  height: 700px;
+  background-color: rgba(250, 235, 215, 0.779);
+  margin-left: 550px;
+  border-radius: 50px;
+  /* margin-top: 30px; */
+
+}
+
+.signupform h3{
+
+  margin: 0px;
+  text-align: center;
+  padding-top: 100px;
+  color: blueviolet;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifx;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.signupform .user{
+  padding-top: 10px;
+  padding-left: 100px;
+  /* text-align: center; */
+}
+.signupform .phone{
+  padding-top: 10px;
+  padding-left: 100px;
+  /* text-align: center; */
+}
+.signupform .pass{
+  padding-top: 20px;
+  padding-left: 100px;
+
+    /* text-align: center; */
+  }
+
+  .signupform .cpass{
+    padding-top: 20px;
+    padding-left: 100px;
+  
+      /* text-align: center; */
+    }
+
+
+  .signupform .user,.pass,.cpass,.phone label{
+    /* font-size: large; */
+    color:rgb(133, 49, 49);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .signupform .user input{
+     margin-top: 10px;
+     box-shadow:black;
+     padding: 7px 30px 7px 20px;
+   }
+   .signupform .phone input{
+    margin-top: 10px;
+    box-shadow:black;
+    padding: 7px 30px 7px 20px;
+  }
+   .signupform .pass input{
+     margin-top: 10px;
+     box-shadow:black;
+     padding: 7px 30px 7px 20px;
+   }
+   .signupform .cpass input{
+    margin-top: 10px;
+    box-shadow:black;
+    padding: 7px 30px 7px 20px;
+  }
+
+  .inup a{
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 100px;
+    /* margin-top: 50px; */
+    padding: 0%;  
+  }
